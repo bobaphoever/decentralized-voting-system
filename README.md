@@ -1,5 +1,5 @@
-Decentralized Voting System on XRPL
-This project is a decentralized voting system built on the XRPL (XRP Ledger) using Next.js 14 and TypeScript. The system allows users to create votes, cast votes, and view the results, leveraging blockchain technology for secure and transparent voting.
+## Decentralized Voting System on XRPL
+This project is a decentralized voting system built on the XRPL (XRP Ledger) testnet using Next.js 14 and TypeScript. The system allows users to create votes, cast votes, and view the results, leveraging blockchain technology for secure and transparent voting.
 
 Features
 Create Votes: Users can create a new vote with a unique ID and a list of options.
