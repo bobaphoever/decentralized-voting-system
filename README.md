@@ -18,6 +18,7 @@ Create a Vote
     - Vote ID: A unique identifier for the vote (e.g., testVote1).
     - Options: Comma-separated options for the vote (e.g., Option A,Option B,Option C).
 3. Click Create Vote: The vote will be created, and you will see a confirmation message.
+
 Cast a Vote
 1. Fill in the Vote form:
   - Vote ID: The ID of the vote you want to participate in (e.g., testVote1).
