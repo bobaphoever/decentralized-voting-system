@@ -15,14 +15,14 @@ This project is a decentralized voting system built on the XRPL (XRP Ledger) tes
 Create a Vote
 1. Navigate to the Home Page: Open your browser and go to http://localhost:3000.
 2. Fill in the Create Vote form:
-- Vote ID: A unique identifier for the vote (e.g., testVote1).
-- Options: Comma-separated options for the vote (e.g., Option A,Option B,Option C).
+  - Vote ID: A unique identifier for the vote (e.g., testVote1).
+  - Options: Comma-separated options for the vote (e.g., Option A,Option B,Option C).
 3. Click Create Vote: The vote will be created, and you will see a confirmation message.
 Cast a Vote
 1. Fill in the Vote form:
-- Vote ID: The ID of the vote you want to participate in (e.g., testVote1).
-- User: A unique identifier for the user casting the vote (e.g., User1).
-- Option: The option the user wants to vote for (e.g., Option A).
+  - Vote ID: The ID of the vote you want to participate in (e.g., testVote1).
+  - User: A unique identifier for the user casting the vote (e.g., User1).
+  - Option: The option the user wants to vote for (e.g., Option A).
 2. Click Vote: The vote will be recorded, and you will see a confirmation message.
 View Results
 1. Enter the Vote ID in the input field at the bottom of the page (e.g., testVote1).
