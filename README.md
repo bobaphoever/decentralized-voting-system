@@ -21,10 +21,11 @@ Create a Vote
 
 Cast a Vote
 1. Fill in the Vote form:
-  - Vote ID: The ID of the vote you want to participate in (e.g., testVote1).
-  - User: A unique identifier for the user casting the vote (e.g., User1).
-  - Option: The option the user wants to vote for (e.g., Option A).
+      - Vote ID: The ID of the vote you want to participate in (e.g., testVote1).
+      - User: A unique identifier for the user casting the vote (e.g., User1).
+      - Option: The option the user wants to vote for (e.g., Option A).
 2. Click Vote: The vote will be recorded, and you will see a confirmation message.
+
 View Results
 1. Enter the Vote ID in the input field at the bottom of the page (e.g., testVote1).
 2. View Results: The results of the vote will be displayed.
