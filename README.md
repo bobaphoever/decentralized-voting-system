@@ -11,6 +11,47 @@ This project is a decentralized voting system built on the XRPL (XRP Ledger) tes
 - XRPL: XRP Ledger, a decentralized blockchain platform.
 - Axios: A promise-based HTTP client for the browser and Node.js.
 
+### Usage
+Create a Vote
+1. Navigate to the Home Page: Open your browser and go to http://localhost:3000.
+2. Fill in the Create Vote form:
+- Vote ID: A unique identifier for the vote (e.g., testVote1).
+- Options: Comma-separated options for the vote (e.g., Option A,Option B,Option C).
+3. Click Create Vote: The vote will be created, and you will see a confirmation message.
+Cast a Vote
+1. Fill in the Vote form:
+- Vote ID: The ID of the vote you want to participate in (e.g., testVote1).
+- User: A unique identifier for the user casting the vote (e.g., User1).
+- Option: The option the user wants to vote for (e.g., Option A).
+2. Click Vote: The vote will be recorded, and you will see a confirmation message.
+View Results
+1. Enter the Vote ID in the input field at the bottom of the page (e.g., testVote1).
+2. View Results: The results of the vote will be displayed.
+### API Endpoints
+- POST /api/vote: Create a new vote or cast a vote.
+  - Request body for creating a vote:
+{
+  "voteId": "testVote1",
+  "options": ["Option A", "Option B", "Option C"]
+}
+  - Request body for casting a vote:
+{
+  "voteId": "testVote1",
+  "user": "User1",
+  "option": "Option A"
+}
+- GET /api/vote: Fetch the results of a vote.
+  - Query parameter: voteId (e.g., /api/vote?voteId=testVote1)
+### Error Handling
+- 400 Bad Request: Returned when there is an issue with the request (e.g., missing required fields, invalid data).
+- 500 Internal Server Error: Returned when there is a server-side issue.
+### Troubleshooting
+- Console Logs: Check the browser console and server logs for error messages.
+- Network Tab: Use the Network tab in the browser's developer tools to inspect requests and responses.
+- Error Messages: Ensure proper error messages are displayed to help identify issues.
+### Contributing
+Contributions are welcome! Please fork the repository and create a pull request with your changes.
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
