@@ -43,7 +43,13 @@ h2 {
 }
 
 div {
-  @apply p-4;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  background-color: #120847;
+  min-height: 100vh;
+  font-family: Arial, sans-serif;
 }
 
 input {
@@ -52,13 +58,19 @@ input {
   margin-left: 10px;
   border-radius: 3px;
   margin: 10px;
+  max-width: 500px;
 }
 
 button {
-  @apply bg-blue-500 text-white font-bold py-2 px-4 rounded;
+  background: linear-gradient(90deg, #ff9b65, #454bcb);
+  border: 1.7px solid #ffffff;
+  border-radius: 5px;
   margin-left: 12px;
-}
+  padding: 10px;
+  cursor: pointer;
+  transition: background 0.3s ease;
 
-.CreateVote {
-  align-items: center;
+    &:hover {
+        background: linear-gradient(90deg, #feae00, #0004ff);
+    }
 }
